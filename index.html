@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="./css/chat.css">
+	<title>Chat con Node y Socket</title>
+</head>
+<body>
+	<div id="chat">
+    <div id="muestra-users">
+        <strong id="users"></strong>
+    </div>
+    <div id="users-online">
+    </div>
+    <div id="mensajes">        
+    </div>
+    <div id="text-area">
+        <textarea placeholder="Escribe tu mensaje..." class="texto"></textarea>
+    </div>
+</div>
+<script src="./js/jquery-2.0.3.min.js"></script>
+<script src="./js/chat.js"></script>
+ <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
